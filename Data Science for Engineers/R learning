@@ -1,0 +1,19 @@
+comment uncommment multiple lines  -  selct and click ctrl+shiflt+c
+Clear console - ctrl + L
+clear env variables - rm(variable), rm(list=ls()), brush button
+run - run only selected line - ctrl + enter
+source - run all lines - ctrl + shift + S / ctrl+shift+enter
+
+Save variables 
+	save(a,file="Sess1.Rdata") -  to save single variable
+	save(list=ls(all.names=TRUE),file="sess1.Rdata")
+	save.image()
+	load(file="sess1.Rdata")
+
+
+
+Basic objects in R
+
+	vector - ordered  collection of same data types
+	list   - ordered collection of objects
+	Dataframe - Generic tabular object 
